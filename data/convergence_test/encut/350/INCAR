@@ -1,0 +1,41 @@
+ Startparameter for this Run:
+   SYSTEM = ADT
+   ENCUT  = 350
+   NWRITE = 2  
+   PREC   = Medium
+   ISTART = 0  
+   ICHARG = 2  
+   ISPIN = 1
+   INIWAV = 1 
+   NELM   = 150
+   NELMIN = 6; NELMDL= -5   
+   EDIFF  = 1E-04 
+   VOSKOWN = 1
+   NPAR   = 4
+   ISIF = 2
+ #  LDIPOL = .TRUE.
+ #  IDIPOL = 3
+ #  EFIELD = -0.2
+ 
+  IALGO  = 48   
+   LDIAG  = T  
+   LREAL  = .F  
+   LWAVE = .F
+   ALGO = Fast
+
+DOS related values:
+   ISMEAR = 1
+   SIGMA = 0.2 
+
+Ionic Relaxation
+   EDIFFG = -0.05  
+   NSW    = 300  
+   IBRION = 2
+   POTIM  = 0.1
+   ISYM   = 2  
+   MAXMIX = 40
+
+  IVDW   = 20
+ VDW_ALPHA = 13.2 12.0 7.4 3.8
+ VDW_C6AU = 98 46.6 24.2 9.52
+ VDW_R0AU = 2.71 3.59 3.34 3.04
